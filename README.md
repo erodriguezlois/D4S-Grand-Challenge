@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/erodriguezlois/D4S-Grand-Challenge/blob/main/GrandChallenge.ipynb)
+
 # 🛡️ D4S: Robust DCT-Watermarking Grand Challenge
 
 Welcome to the **D4S: Robust DCT-Watermarking Grand Challenge**! Your goal is to build a blind, DCT-domain image watermarking system (`watermark_encoder` and `watermark_decoder`) using PNG file I/O that achieves **Zero Errors (BER = 0)** under JPEG compression attacks while minimizing perceptual distortion (**Mean LPIPS**).
@@ -7,7 +9,7 @@ Welcome to the **D4S: Robust DCT-Watermarking Grand Challenge**! Your goal is to
 > **⏰ Submission Deadline:** **Friday, 15th of January 2027 at 14:00 UTC+1**.
 
 ### 1. Access the Notebook & Run It
-1. **Open the GitHub Repository:** Go to the challenge's GitHub repository (TBD) and locate the public starter/evaluation notebook.
+1. **Open the GitHub Repository:** Go to the challenge's GitHub repository and locate the public starter/evaluation notebook ([GrandChallenge.ipynb](GrandChallenge.ipynb)).
 2. **Launch in Google Colab & Save a Copy (Recommended):** Sign in with your Google account and open the notebook in **Google Colab** (you can also run it locally, though testing in Colab is strongly advised so your environment, dependencies, and paths match the automated grading setup). Because the repository notebook opens in view/read-only mode, select **File → Save a copy in Drive** to edit your code and save your changes.
 3. **Run Local Self-Evaluation:** Execute the setup and **Local Self-Evaluation** cells against `public_test/` to verify your `watermark_encoder` and `watermark_decoder` implementation, inspect the binary-searched `strength` values (0–250), and aim for **BER = 0** with low **Mean LPIPS**.
 
