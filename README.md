@@ -11,7 +11,7 @@ Welcome to the **D4S: Robust DCT-Watermarking Grand Challenge**! Your goal is to
 ### 1. Access the Notebook & Run It
 1. **Open the GitHub Repository:** Go to the challenge's GitHub repository and locate the public starter/evaluation notebook ([GrandChallenge.ipynb](https://colab.research.google.com/github/erodriguezlois/D4S-Grand-Challenge/blob/main/GrandChallenge.ipynb)).
 2. **Launch in Google Colab & Save a Copy (Recommended):** Sign in with your Google account and open the notebook in **Google Colab** (you can also run it locally, though testing in Colab is strongly advised so your environment, dependencies, and paths match the automated grading setup). Because the repository notebook opens in view/read-only mode, select **File → Save a copy in Drive** to edit your code and save your changes.
-3. **Run Local Self-Evaluation:** Execute the setup and **Local Self-Evaluation** cells against `public_test/` to verify your `watermark_encoder` and `watermark_decoder` implementation, inspect the binary-searched `strength` values (0–250), and aim for **BER = 0** with low **Mean LPIPS**.
+3. **Run Local Self-Evaluation:** Execute the setup and **Local Self-Evaluation** cells against `public_test/` to verify your `watermark_encoder` and `watermark_decoder` implementation, inspect the binary-searched `strength` values (0–250), and aim for **No decoding errors (BER = 0)** with low **Mean LPIPS**.
 
 ### 2. Submit Your Solution
 1. **Name Your File Properly:** Save your standalone code as `<pseudonym>.py` using **only lowercase letters, digits, and underscores** (for example, `blue_fox.py`), including `PSEUDONYM = "<pseudonym>"`, `watermark_encoder(...)`, and `watermark_decoder(...)`.
@@ -19,7 +19,7 @@ Welcome to the **D4S: Robust DCT-Watermarking Grand Challenge**! Your goal is to
 3. **Check the Leaderboard:** Grading runs **once daily** (timestamps displayed in **UTC+1**). Re-run `view_leaderboard()` after the next update to check your rank, or call `see_all_submissions("<pseudonym>")` to inspect your history. Keep in mind that **at most 2 ungraded submissions per participant** are evaluated per run (keeping the first two), and top leaderboard scores still undergo manual review for genuine DCT-domain embedding and rule compliance.
 
 ### 📊 Grading Scale
-Final grades are determined by **Mean LPIPS** (assuming **BER = 0** and compliance with challenge rules):
+Final grades are determined by **Mean LPIPS** (assuming **No decoding errors (BER = 0)** and compliance with challenge rules):
 
 | Mean LPIPS Threshold | Grade |
 | :--- | :--- |
