@@ -1,4 +1,5 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/erodriguezlois/D4S-Grand-Challenge/blob/main/GrandChallenge.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/erodriguezlois/D4S-Grand-Challenge/blob/main/GrandChallenge.ipynb) 
+[![Open Google Form](https://img.shields.io/badge/Submit%20via-Google%20Form-4285F4?style=flat&logo=googleforms&logoColor=white)](https://forms.gle/jbxpevwEbKDUyxGs6)
 
 # 🛡️ D4S: Robust DCT-Watermarking Grand Challenge
 
