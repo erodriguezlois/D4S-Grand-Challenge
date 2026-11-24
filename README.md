@@ -1,4 +1,4 @@
-# 🛡️ D4S: Robust DCT-Watermarking Grand Challenge — Getting Started
+# 🛡️ D4S: Robust DCT-Watermarking Grand Challenge
 
 Welcome to the **D4S: Robust DCT-Watermarking Grand Challenge**! Your goal is to build a blind, DCT-domain image watermarking system (`watermark_encoder` and `watermark_decoder`) using PNG file I/O that achieves **Zero Errors (BER = 0)** under JPEG compression attacks while minimizing perceptual distortion (**Mean LPIPS**).
 
